@@ -33,13 +33,13 @@ class OverworldMap {
       gameObjects: {
         hero: new Person({
           isPlayerControlled: true,
-          x: utils.withGrid(5),
+          x: utils.withGrid(4),
           y: utils.withGrid(6),
         }),
         npc1: new Person({
           x: utils.withGrid(7),
           y: utils.withGrid(9),
-          src: "/images/characters/people/npc1.png"
+          src: "/images/characters/people/npc3.png"
         })
       }
     },
